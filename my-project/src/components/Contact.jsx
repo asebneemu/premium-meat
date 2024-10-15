@@ -1,4 +1,4 @@
-import React from 'react';
+
 import iletisimBg from '/Pictures/iletisim-div-bg.png'; // Arka plan resmi
 import iletisimBgAna from '/Pictures/iletisim-bg.png'; // Yeni arka plan resmi
 import { Link } from 'react-router-dom'; // Link bileşeni eklendi

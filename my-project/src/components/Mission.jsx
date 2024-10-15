@@ -63,13 +63,12 @@ const Mission = () => {
       <h1 className="text-4xl font-bold text-center mt-40 mb-20 bg-gradient-to-r from-red-600 to-yellow-900 text-transparent bg-clip-text">
         MİSYONUMUZ
       </h1>
-      
-      <div className="flex justify-center mt-4">
-        <div className="flex justify-between w-4/5">
-          <p className="w-1/3 text-left text-lg font-bold">
+      <div className="flex flex-col md:flex-row justify-center mt-4 sm:items-center xs:items-center xxs:items-center">
+        <div className="flex flex-col md:flex-row justify-between w-4/5">
+          <p className="w-full md:w-1/2 xl:text-left text-xl xl:m-5 md:p-5 md:text-justify sm:text-justify md:mb-10 sm:mb-10 xs:mb-10 ">
             İsMeh-Meat olarak, 10 yılı aşkın süredir gastronomi sektöründe edindiğimiz deneyimleri şimdi kendi markamız altında sizlere sunuyoruz. Uzun yıllar boyunca hem mutfakta hem de et ticaretinde çalışarak, kaliteli etin ne demek olduğunu derinlemesine öğrendik. Bu bilgi birikimimizi profesyonelliğe taşıyarak, en taze ve sağlıklı et ürünlerini müşterilerimize ulaştırmayı amaçlıyoruz. Her zaman doğallığı ve tazeliği ön planda tutuyor, en yüksek hijyen standartlarına uygun şekilde üretim yapıyoruz. Mutfakta kazandığımız titizlik ve özen ile her bir ürünü büyük bir hassasiyetle seçiyor, sofralarınıza güvenle sunuyoruz.
           </p>
-          <p className="w-1/3 text-right text-lg font-bold">
+          <p className="w-full md:w-1/2 xl:text-right text-xl xl:m-5 md:p-5 md:text-justify sm:text-justify md:mb-10 sm:mb-10 xs:mb-10">
             Müşterilerimize sadece lezzetli etler değil, aynı zamanda güvenilir ve uygun fiyatlı çözümler sunmak bizim için birinci öncelik. Toptan satış çözümlerimizle hem bireysel müşterilere hem de işletmelere ulaşmayı hedefliyoruz. Kaliteli ürünlerimizi en uygun fiyatlarla sunarak, herkesin bu ürünlere kolayca erişebilmesini sağlıyoruz. İsMeh-Meat olarak, taze ve sağlıklı et ürünleriyle müşterilerimize hizmet sunmanın yanı sıra, işletmelere esnek ve hızlı tedarik çözümleri sunarak işlerini destekliyoruz. Bizim için müşteri memnuniyeti ve güven en büyük motivasyon kaynağıdır; bu doğrultuda, her ürünümüzün arkasında duruyoruz.
           </p>
         </div>

@@ -14,31 +14,25 @@ const Hero = () => {
       </video>
       
       {/* İçerik */}
-      <div className="w-[1140px] flex items-center justify-center h-[80%] p-8 m-4 bg-white bg-opacity-20 rounded-md"> {/* Şeffaf beyaz arka plan */}
+      <div className="w-[90%] md:w-[1140px] flex items-center justify-center h-[80%] p-4 md:p-8 m-4 bg-white bg-opacity-20 rounded-md"> {/* Şeffaf beyaz arka plan */}
         {/* Şeffaf siyah arka planlı iç div */}
-        <div className="flex-grow flex flex-col items-center justify-center p-8 bg-black bg-opacity-50 rounded-md h-[95%] space-y-8"> {/* Saydam siyah arka plan */}
-          <div className="flex justify-center space-x-48"> {/* Butonlar arasında mesafe artırıldı */}
-            <Link 
-              to="/" // Ana sayfaya yönlendirme
-              className="bg-gradient-to-r from-red-600 via-gray-300 to-orange-400 text-transparent bg-clip-text text-2xl font-bold border-2 border-transparent hover:text-red-600 transition duration-300 px-2 py-1 rounded"
-            >
-              Anasayfa
-            </Link>
+        <div className="flex-grow flex flex-col items-center justify-center p-4 md:p-8 bg-black bg-opacity-50 rounded-md h-[95%] space-y-4 md:space-y-8"> {/* Saydam siyah arka plan */}
+          <div className="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-8"> {/* Butonlar arasında mesafe artırıldı */}
             <Link 
               to="/mission" // Yönlendirme
-              className="bg-gradient-to-r from-red-600 via-gray-300 to-orange-400 text-transparent bg-clip-text text-2xl font-bold border-2 border-transparent hover:text-red-600 transition duration-300 px-2 py-1 rounded"
+              className="bg-gradient-to-r from-red-600 via-gray-300 to-orange-400 text-transparent bg-clip-text text-xl md:text-2xl font-bold border-2 border-transparent hover:text-red-600 transition duration-300 px-4 py-2 rounded"
             >
               Misyonumuz
             </Link>
             <Link 
               to="/products" // Ürünlerimiz linki için Link bileşeni kullanıldı
-              className="bg-gradient-to-r from-red-600 via-gray-300 to-orange-400 text-transparent bg-clip-text text-2xl font-bold border-2 border-transparent hover:text-red-600 transition duration-300 px-2 py-1 rounded"
+              className="bg-gradient-to-r from-red-600 via-gray-300 to-orange-400 text-transparent bg-clip-text text-xl md:text-2xl font-bold border-2 border-transparent hover:text-red-600 transition duration-300 px-4 py-2 rounded"
             >
               Ürünlerimiz
             </Link>
             <Link 
               to="/contact" // İletişim linki güncellendi
-              className="bg-gradient-to-r from-red-600 via-gray-300 to-orange-400 text-transparent bg-clip-text text-2xl font-bold border-2 border-transparent hover:text-red-600 transition duration-300 px-2 py-1 rounded"
+              className="bg-gradient-to-r from-red-600 via-gray-300 to-orange-400 text-transparent bg-clip-text text-xl md:text-2xl font-bold border-2 border-transparent hover:text-red-600 transition duration-300 px-4 py-2 rounded"
             >
               İletişim
             </Link>

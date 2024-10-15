@@ -24,9 +24,9 @@ const Products = () => {
             </div>
             <h1 className="text-4xl font-bold mb-8 mt-[3%]">ÜRÜNLERİMİZ</h1>
 
-            <div className="flex flex-wrap justify-between w-full px-10 py-10">
+            <div className="flex flex-wrap justify-center w-full px-10 py-10"> {/* Burada flex-wrap eklendi */}
                 {/* Dana Eti Ürünleri Divi */}
-                <div className="border-4 border-black w-[22%] p-2 mb-4 relative">
+                <div className="border-4 border-black w-full sm:w-[45%] md:w-[22%] p-2 mb-4 relative sm:mx-2"> {/* Alt alta dizilmesi için w-full eklendi */}
                     <div className="relative w-full h-[200px]">
                         <video
                             autoPlay
@@ -39,14 +39,14 @@ const Products = () => {
                         </video>
                         <div className="absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center">
                             <Link to="/dana-urunleri">
-                                <h1 className="text-white text-xl font-bold">DANA ETİ ÜRÜNLERİ</h1>
+                                <h1 className="text-white text-xl font-bold text-center">DANA ETİ ÜRÜNLERİ</h1>
                             </Link>
                         </div>
                     </div>
                 </div>
 
                 {/* Kuzu Eti Ürünleri Divi */}
-                <div className="border-4 border-black w-[22%] p-2 mb-4 relative">
+                <div className="border-4 border-black w-full sm:w-[45%] md:w-[22%] p-2 mb-4 relative sm:mx-2"> {/* Alt alta dizilmesi için w-full eklendi */}
                     <div className="relative w-full h-[200px]">
                         <video
                             autoPlay
@@ -59,14 +59,14 @@ const Products = () => {
                         </video>
                         <div className="absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center">
                             <Link to="/kuzu-urunleri">
-                                <h1 className="text-white text-xl font-bold">KUZU ETİ ÜRÜNLERİ</h1>
+                                <h1 className="text-white text-xl font-bold text-center">KUZU ETİ ÜRÜNLERİ</h1>
                             </Link>
                         </div>
                     </div>
                 </div>
 
                 {/* Tavuk Eti Ürünleri Divi */}
-                <div className="border-4 border-black w-[22%] p-2 mb-4 relative">
+                <div className="border-4 border-black w-full sm:w-[45%] md:w-[22%] p-2 mb-4 relative sm:mx-2"> {/* Alt alta dizilmesi için w-full eklendi */}
                     <div className="relative w-full h-[200px]">
                         <video
                             autoPlay
@@ -79,14 +79,14 @@ const Products = () => {
                         </video>
                         <div className="absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center">
                             <Link to="/tavuk-urunleri">
-                                <h1 className="text-white text-xl font-bold">TAVUK ETİ ÜRÜNLERİ</h1>
+                                <h1 className="text-white text-xl font-bold text-center">TAVUK ETİ ÜRÜNLERİ</h1>
                             </Link>
                         </div>
                     </div>
                 </div>
 
                 {/* Sakatat Ürünleri Divi */}
-                <div className="border-4 border-black w-[22%] p-2 mb-4 relative">
+                <div className="border-4 border-black w-full sm:w-[45%] md:w-[22%] p-2 mb-4 relative sm:mx-2"> {/* Alt alta dizilmesi için w-full eklendi */}
                     <div className="relative w-full h-[200px]">
                         <video
                             autoPlay
@@ -99,7 +99,7 @@ const Products = () => {
                         </video>
                         <div className="absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center">
                             <Link to="/sakatat-urunleri">
-                                <h1 className="text-white text-xl font-bold">SAKATAT ÜRÜNLERİ</h1>
+                                <h1 className="text-center text-white text-xl font-bold">SAKATAT ÜRÜNLERİ</h1>
                             </Link>
                         </div>
                     </div>
